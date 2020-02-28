@@ -6,7 +6,7 @@ import time
 
 server = Server()
 
-url = "opc.tcp://localhost:4840"
+url = "opc.tcp://127.0.0.1:4840"
 server.set_endpoint(url)
 
 name = "OPCUA_DUMMY_SIMULATION_SERVER"
