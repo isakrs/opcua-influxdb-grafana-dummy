@@ -1,5 +1,4 @@
 from opcua import Client
-from influx_line_protocol import Metric
 import requests
 import time
 
